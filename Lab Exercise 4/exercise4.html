@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maths Operations</title>
+</head>
+<body>
+
+    <h2>Maths Operations</h2>
+    
+    <!-- Container to display the output -->
+    <div id="output"></div>
+
+    <script>
+        // 1. Addition Function
+        function add(a, b) {
+            let result = a + b;
+            document.getElementById('output').innerHTML += `<p>${a} + ${b} = ${result}</p>`;
+            return result;
+        }
+
+        // 2. Subtraction Function
+        function subtract(a, b) {
+            let result = a - b;
+            document.getElementById('output').innerHTML += `<p>${a} - ${b} = ${result}</p>`;
+            return result;
+        }
+
+        // 3. Multiplication Function
+        function multiply(a, b) {
+            let result = a * b;
+            document.getElementById('output').innerHTML += `<p>${a} * ${b} = ${result}</p>`;
+            return result;
+        }
+
+        // 4. Division Function
+        function divide(a, b) {
+            if (b === 0) {
+                document.getElementById('output').innerHTML += `<p>Error: Division by zero.</p>`;
+                return null;
+            }
+            let result = a / b;
+            document.getElementById('output').innerHTML += `<p>${a} / ${b} = ${result}</p>`;
+            return result;
+        }
+
+        // Execution examples showing the output on the screen
+        add(20, 10);
+        subtract(20, 15);
+        multiply(30, 5);
+        divide(40, 5);
+    </script>
+
+</body>
+</html>

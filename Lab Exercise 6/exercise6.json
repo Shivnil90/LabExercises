@@ -1,0 +1,77 @@
+let book = {
+    title: "The Hobbit",
+    description: "A fantasy novel about a hobbit's adventure to reclaim a treasure.",
+    author: "J.R.R. Tolkien",
+    pages: 310
+};
+
+console.log(book);
+`
+let book = {
+    title: "The Hobbit",
+    description: "A fantasy novel about a hobbit's adventure.",
+    author: "J.R.R. Tolkien",
+    pages: 310
+};
+
+// Print individual properties
+console.log(book.title);
+console.log(book.description);
+console.log(book.author);
+console.log(book.pages);
+
+// Print the whole object
+console.log(book);
+
+
+let book = {
+    title: "The Hobbit",
+    description: "A fantasy novel about a hobbit's adventure.",
+    author: "J.R.R. Tolkien",
+    pages: 310
+};
+
+// Update the description
+book.description = "A classic fantasy novel following Bilbo Baggins on an epic journey with a group of dwarves.";
+
+// Print the updated description
+console.log(book.description);
+
+// Print the whole updated object
+console.log(book);
+
+
+let books = [
+    {
+        title: "The Hobbit",
+        description: "A fantasy adventure about Bilbo Baggins.",
+        author: "J.R.R. Tolkien",
+        pages: 310
+    },
+    {
+        title: "Harry Potter and the Philosopher's Stone",
+        description: "A young wizard discovers his magical destiny.",
+        author: "J.K. Rowling",
+        pages: 223
+    },
+    {
+        title: "To Kill a Mockingbird",
+        description: "A story about justice and prejudice in a small town.",
+        author: "Harper Lee",
+        pages: 281
+    },
+    {
+        title: "1984",
+        description: "A dystopian novel about surveillance and control.",
+        author: "George Orwell",
+        pages: 328
+    },
+    {
+        title: "The Great Gatsby",
+        description: "A tale of wealth, love, and the American Dream.",
+        author: "F. Scott Fitzgerald",
+        pages: 180
+    }
+];
+
+
