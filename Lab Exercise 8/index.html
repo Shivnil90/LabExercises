@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Dice Generator</h1>
+        <p class="subtitle">
+            Select a dice and generate a random result.
+        </p>
+
+        <div class="input-group">
+
+            <label for="diceType">Select Dice</label>
+
+            <select id="diceType">
+                <option value="6">D6</option>
+                <option value="10">D10</option>
+            </select>
+
+        </div>
+
+        <button onclick="rollDice()">
+            Roll Dice
+        </button>
+
+        <div class="result-box">
+
+            <h3>Dice Result</h3>
+
+            <p id="result">-</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
